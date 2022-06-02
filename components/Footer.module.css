@@ -1,0 +1,23 @@
+.footerLink {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.footerLink::after {
+  content: '';
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+
+.footerLink:hover::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  display: block;
+}
