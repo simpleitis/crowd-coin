@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 import Head from 'next/head';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
-import Layout from '../components/Layout';
 import factory from '../ethereum/factory';
 import CampaignCard from '../components/CampaignCard';
 
